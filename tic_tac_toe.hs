@@ -1,10 +1,6 @@
 import Test.Hspec
 import Control.Exception
 
--- zz :: Int -> Int
--- zz 5 = 100
--- zz n = n*2
-
 data Piece = X | O | Empty deriving (Eq, Show)
 data Row = Row Piece Piece Piece deriving (Eq, Show)
 data Board = Board Row Row Row deriving (Eq, Show)
